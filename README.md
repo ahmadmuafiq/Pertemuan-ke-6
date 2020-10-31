@@ -1,4 +1,4 @@
-# Pertemuan-ke-6
+# PERTEMUAN KE 6
 **Repository ini dibuat untuk memenuhi tugas bahasa pemrograman pertemuan ke-4**
 
  **==================================================** <br>
