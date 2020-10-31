@@ -1,4 +1,5 @@
-**Repository ini dibuat untuk memenuhi tugas bahasa pemrograman pertemuan ke-6**
+# Pertemuan-ke-6
+**Repository ini dibuat untuk memenuhi tugas bahasa pemrograman pertemuan ke-4**
 
  **==================================================** <br>
 **Nama      : Ahmad Muafiq**<br>
