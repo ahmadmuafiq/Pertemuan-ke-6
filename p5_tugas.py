@@ -1,5 +1,4 @@
-print("Please enter full name : ")
-fullname=input()
+print("Please enter full name : ") fullname=input()
 
 print("please insert your Nickname : ")
 nickname=input()
