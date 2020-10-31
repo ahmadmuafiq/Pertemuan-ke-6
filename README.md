@@ -51,7 +51,7 @@ Berikut penjelasanya : <br>
 ```python
 print("Please enter full name : ")
 ```
-Source Code ini berfungsi untuk mencetak hasil atau output berupa ***"Please enter full name"*** seperti gambar dibawah ini :
+Source Code ini berfungsi untuk mencetak hasil atau output berupa ***"Please enter full name"*** seperti gambar dibawah ini :<br>
 ![input gambar](picture/fullname.PNG)<br>
 
 
