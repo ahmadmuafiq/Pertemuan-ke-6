@@ -12,10 +12,11 @@ DAFTAR ISI <br>
 | ----- | ----- | ---- |
 | 1 | Tugas pertemuan 5 | [Click Here](#pertemuan-5---tugas-bahasa-pemrograman)
 | 2 | Tugas pertemuan 6 Lab 1 | [Click Here](#pertemuan-6---lab-1)
-| 3 | Tugas pertemuan 6 Lab 2 | [Click Here](#pertemuan-6---lab-2)
+| 3 | Tugas pertemuan 6 Lab 1.2 | [Click Here](#pertemuan-6---lab-2)
+| 4 | Tugas pertemuan 6 Lab 2 | [Click Here](#pertemuan-6---lab-2)
 <br>
 
-## PERTEMUAN 5 - TUGAS BAHASA PEMROGRAMAN
+# PERTEMUAN 5 - TUGAS BAHASA PEMROGRAMAN
 
      
 Pada pertemuan ke-5 Bahasa pemrograman, saya diberi tugas oleh dosen untuk membuat aplikasi biodata dengan Python (seperti dibawah ini)
@@ -206,6 +207,82 @@ Hasil dari syntax / source code diatas adalah sebagai berikut : <br>
 
 ![input gambar](picture/oke.PNG)
 
-## Pertemuan ke-6 Lab 1.2
+# Pertemuan 6 Lab 1.2
 
 * String format 
+String formating atau pemformatan string memungkinkaan kita memasukan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
+
+Penggunaa source code yang diberikan oleh Dosen seperti berikut : <br>
+
+![input gambar](picture/lab1.2.PNG)
+
+```python
+#string format 1
+print(0, 10**0)
+print(1, 10**1)
+print(2, 10**2)
+print(3, 10**3)
+print(4, 10**4)
+print(5, 10**5)
+print(6, 10**5)
+print(8, 10**8)
+print(9, 10**9)
+print(10, 10**10)
+
+#string format 2
+print('{0:>3} {1:>16}'.format(0, 10**0))
+print('{0:>3} {1:>16}'.format(1, 10**1))
+print('{0:>3} {1:>16}'.format(2, 10**2))
+print('{0:>3} {1:>16}'.format(3, 10**3))
+print('{0:>3} {1:>16}'.format(4, 10**4))
+print('{0:>3} {1:>16}'.format(5, 10**5))
+print('{0:>3} {1:>16}'.format(6, 10**6))
+print('{0:>3} {1:>16}'.format(7, 10**7))
+print('{0:>3} {1:>16}'.format(8, 10**8))
+print('{0:>3} {1:>16}'.format(9, 10**9))
+print('{0:>3} {1:>16}'.format(10, 10**10))
+```
+<br>
+
+Selanjutnya saya akan menjelaskan satu persatu kegunaan syntax tersebut. <br>
+
+1. String format 1<br>
+Pada syntax / source code string format 1 akan menampilkan berupa 2 output. <br>
+* Akan menampilkan angka Urut dari angka 0 hingga angka 10
+* Akan menampilkan Operasi Aritmatika Pangkat.
+
+Dengan ketentuan sebagai berikut, operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua]).<br><br>
+Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10. dengan output sebagai berikut :
+
+![input gambar](picture/string1.PNG)
+
+2. String format 2<br>
+Pada syntax atau source code string format 2 akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri).<br>
+Dengan ketentuan sebagai berikut :
+
+> Alignment, padding, dan precesion dengan **.format()** dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri, parameter pembulatan dan banyak lagi. Contoh lain seperti berikut :
+
+```python
+print('{0:8} | {1:9}'.format('Buah','Jumlah'))
+print('{0:8} | {1:9}'.format('Apel', 3.))
+print('{0:8} | {1:9}'.format('Jeruk',10))
+```
+Hasil dari source code contoh diatas akan seperti berikut :<br>
+
+![input gambar](picture/string2.PNG)
+
+> Secara Default, **.format()** menggunakan rata teks ke kiri, angka ke kanan. Kita dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan **.format()** sebagai berikut :
+<br>
+
+```python
+print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
+print('{:<30}{:^30}{:>30}'.format(12,34,56))
+```
+Hasil dari source code contoh diatas akan muncul seperti ini :<br>
+
+![input gambar](picture/string2juga.PNG)
+
+Untuk hasil String format 2 sebagai berikut :
+<br>
+
+![input gambar](picture/string2lagi.PNG)

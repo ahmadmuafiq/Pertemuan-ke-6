@@ -1,4 +1,4 @@
-#string format
+#string format 1
 print(0, 10**0)
 print(1, 10**1)
 print(2, 10**2)
@@ -10,7 +10,7 @@ print(8, 10**8)
 print(9, 10**9)
 print(10, 10**10)
 
-#string format
+#string format 2
 print('{0:>3} {1:>16}'.format(0, 10**0))
 print('{0:>3} {1:>16}'.format(1, 10**1))
 print('{0:>3} {1:>16}'.format(2, 10**2))
