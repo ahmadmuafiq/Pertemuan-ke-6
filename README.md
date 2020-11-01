@@ -79,7 +79,7 @@ Keterangan<br>
 2. Fungsi **input()** adalah untuk memasukan nilai dari layar consol di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol Enter
  *(newline)*<br>
 
-![input gambar](picture/fullname2.png)<br>
+![input gambar](picture/fullname2.PNG)<br>
 
 Pada gambar diatas, hasil dari inputan tersebut berwarna *hijau*<br>
 
@@ -111,7 +111,7 @@ Keterangan :<br>
 
 Hasil dari outpu tersebut adalah :
 
-![input gambar](picture/Hasil.png)<br>
+![input gambar](picture/Hasil.PNG)<br>
 
 <br>
 <br>
