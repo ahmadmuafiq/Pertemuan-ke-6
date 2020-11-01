@@ -109,7 +109,7 @@ Keterangan :<br>
 1. Fungsi huruf    ***f***  pada perintah ***print(f"...)*** adalah fungsi print yang dapat memudahkan programer untuk mencetak statement dalam satu baris dibandingkan dengan metode lama yaitu memisahkan string dan variabel dengan tanda koma ( , ) atau ( + ) <br>
 2. Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variabel<br>
 
-Hasil dari outpu tersebut adalah :
+Hasil dari output tersebut adalah :
 
 ![input gambar](picture/Hasil.PNG)<br>
 
@@ -117,4 +117,95 @@ Hasil dari outpu tersebut adalah :
 <br>
 <br>
 
+# Pertemuan 6 - Lab 1
 
+Pada tugas pertemuan ke-6 lab 1 saya diberikan tugas oleh Dosen yaitu mempelajari Aritmatika menggunakan bahasa pemrograman python. Berikut source code yang diberikan oleh dosen :
+
+![input gambar](picture/lab1.PNG)
+
+```python
+#penggunaan end
+print('A', end='')
+print('B', end='')
+print('C', end='')
+print()
+print('X')
+print('Y')
+print('z')
+
+#penggunaan separator
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='.....')
+```
+<br>
+Kali ini saya akan menjelaskan materi yang diterima dari Dosen. <br><br>
+
+* Penggunaan End <br>
+Penggunaan End digunakan untuk menambahkan karakter yang dicetak di akhir baris. Secara default penggunan End adalah untuk garis baris.
+
+```python
+print('A', end='')
+print('B', end='')
+print('C', end='')
+```
+> Penggunaan print() digunakan untuk mencetak output, seperti syntax dibawah ini :
+
+```python
+print('X')
+print('Y')
+print('z')
+```
+<br>
+Hasil dari source code tersebut seperti gambar dibawah ini : <br><br>
+
+![input gambar](picture/abc.PNG)
+
+* Penggunaan Separator<br>
+Esparator adalah pemisah yang berfungsi sebagai tanda pemisah antara objek yang dicetak. <br><br>
+
+Default nya adalah tanda seperti :<br>
+> Pendeklarasian beberapa variabel beserta nilainya
+
+```python
+print(w, x, y, z)
+```
+<br>
+
+> Menampilkan hasil dari tiap-tiap variabel dengan menggunakan pemisah (koma)
+
+```python
+print(w, x, y, z, sep=',')
+```
+<br>
+
+> Menampilkan hasil dari tiap-tiap variabel tanpa menggunakan pemisah
+
+```python
+print(w, x, y, z, sep='')
+```
+<br>
+
+> Menampilkan hasil dari tiap-tiap variabel dengan menggunakan pemisah (titik dua)
+
+```python
+print(w, x, y, z, sep=':')
+```
+<br>
+
+> Menampilkan hasil dari tiap-tiap variabel dengan menggunakan pemisah (titik-titik)
+
+```python
+print(w, x, y, z, sep='.....')
+```
+
+Hasil dari syntax / source code diatas adalah sebagai berikut : <br>
+
+![input gambar](picture/oke.PNG)
+
+## Pertemuan ke-6 Lab 1.2
+
+* String format 

@@ -1,3 +1,4 @@
+#penggunaan end
 print('A', end='')
 print('B', end='')
 print('C', end='')
@@ -12,4 +13,4 @@ print(w, x, y, z)
 print(w, x, y, z, sep=',')
 print(w, x, y, z, sep='')
 print(w, x, y, z, sep=':')
-print(w, x, y, z, sep='.....')
+print(w, x, y, z, sep='-----')
