@@ -349,5 +349,5 @@ Kita akan coba lagi untuk ***run*** file tersebut, maka akan muncul seperti gamb
 Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini.
 
 <hr><hr>
-<center> THANK YOU </center>
+======================== THANK YOU =======================
 <hr><hr>
