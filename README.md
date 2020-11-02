@@ -1,5 +1,5 @@
 # PERTEMUAN KE 6 - Bahasa Pemrograman
-**Repository ini dibuat untuk memenuhi tugas bahasa pemrograman pertemuan ke-4**
+**Repository ini dibuat untuk memenuhi tugas bahasa pemrograman pertemuan ke-6**
 
  **==================================================** <br>
 **Nama      : Ahmad Muafiq**<br>
@@ -349,5 +349,5 @@ Kita akan coba lagi untuk ***run*** file tersebut, maka akan muncul seperti gamb
 Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini.
 
 <hr><hr>
-================================ THANK YOU ===================================
+================================ GOOD LUCK ===================================
 <hr><hr>
