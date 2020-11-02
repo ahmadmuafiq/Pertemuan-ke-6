@@ -286,3 +286,64 @@ Untuk hasil String format 2 sebagai berikut :
 <br>
 
 ![input gambar](picture/string2lagi.PNG)
+
+## Pertemuan 6 - lab 2
+
+* Konversi nilai variabel
+Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas lab 2 dari Dosen, yaitu konvers nilai variabel <br>
+tugas yang diberikan dosen adalah seperti gambar dibawah ini atau bisa diakses ke link [Pertemuan 6 - Lab 2](p6_lab2.py) : <br>
+
+![input gambar](picture/lab2.PNG)
+
+```python
+a=input("masukkan nilai A : ")
+b=input("masukkan nilai B : ")
+print("variable A=",a)
+print("variable B=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+
+Setelah saya menjalankan source code tersebut terdapat error, seperti gambar dibawah ini :
+
+![input gambar](picture/lab2lagi.PNG)
+
+Selanjutnya kita akan menyelesaikan error yang telah terdeteksi.<br>
+
+> ***TypeError: %d format: a number is required, not str*** <br>
+
+Pada error tersebut terbaca bahwa variable a adalah string, yang seharusnya dibaca oleh system adalah Number / Interger. <br>
+
+***Bagaimana cara memperbaiki error tersebut?***<br>
+
+Kita lihat pada baris ke 5 (di notifikasi terbaca bahwa error terletak pada baris ke 5), yaitu pada pemformatan .format() adalah interger, Sedangkan jika berupa string maka akan ada tanda petik dua ("..") pada pemformatan .format()
+Kita akan terfokus pada variable a dan b.
+
+Pada line 1 tertulis syntax : a=input("Masukkan Nilai A : ")
+Sedangkan pada line 2 tertulis sytax : b=input("Masukkan Nilai B : ")
+
+Untuk membuat inputan berupa interger/angka harus ditambahkan syntax int() pada format input(). Yang seharusnya ditulis adalah :
+
+```python
+a=int(input("masukkan nilai A : "))
+b=int(input("masukkan nilai B : "))
+print("variable A=",a)
+print("variable B=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+Kita akan coba lagi untuk ***run*** file tersebut, maka akan muncul seperti gambar dibawah ini :
+
+![input gambar](picture/runlab2.PNG)
+
+Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini.
