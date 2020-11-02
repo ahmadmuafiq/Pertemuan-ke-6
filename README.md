@@ -12,7 +12,7 @@ DAFTAR ISI <br>
 | ----- | ----- | ---- |
 | 1 | Tugas pertemuan 5 | [Click Here](#pertemuan-5---tugas-bahasa-pemrograman)
 | 2 | Tugas pertemuan 6 Lab 1 | [Click Here](#pertemuan-6---lab-1)
-| 3 | Tugas pertemuan 6 Lab 1.2 | [Click Here](#pertemuan-6---lab-2)
+| 3 | Tugas pertemuan 6 Lab 1.2 | [Click Here](#pertemuan-6-lab-12)
 | 4 | Tugas pertemuan 6 Lab 2 | [Click Here](#pertemuan-6---lab-2)
 <br>
 
@@ -347,3 +347,7 @@ Kita akan coba lagi untuk ***run*** file tersebut, maka akan muncul seperti gamb
 ![input gambar](picture/runlab2.PNG)
 
 Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini.
+
+<hr><hr>
+<center> THANK YOU </center>
+<hr><hr>
